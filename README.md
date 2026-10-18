@@ -99,7 +99,7 @@ The 90Hz default is set as `DEFAULT_HZ=90` in `service.sh` and `focus.sh`. Chang
 
 ---
 
-## CPU polling optimisation
+## CPU polling optimization
 
 ### The problem (v1)
 
@@ -153,7 +153,7 @@ I haven't measured this against the older polling versions. Compare battery or `
 
 1. **Allows root** for the app in Magisk (a system app doesn't get root automatically).
 2. **Turns the accessibility service on directly** through secure settings, so the greyed-out "restricted setting" toggle doesn't matter.
-3. **Adds protections** against being killed: battery-optimisation whitelist, background-run allowances, HyperOS Autostart (best effort), and an "active" standby bucket.
+3. **Adds protections** against being killed: battery-optimization whitelist, background-run allowances, HyperOS Autostart (best effort), and an "active" standby bucket.
 
 The Autostart and standby settings differ between HyperOS builds, so they are best effort. If the app is ever killed mid-session, tap **Action** to bring it back.
 
